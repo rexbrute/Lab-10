@@ -1,0 +1,14 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{int n,i,suma=0;
+scanf("%d",&n);
+int cuc[n];
+for(i=0;i<n;i++){
+scanf("%d",&cuc[i]);
+suma=suma+cuc[i];
+}
+printf("%d",suma);
+    return 0;
+}
