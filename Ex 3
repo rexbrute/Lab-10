@@ -1,0 +1,18 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    int bez[5];
+    int b;
+    int i;
+    int k=0;
+    printf("Introduceti numar: ");
+    scanf("%d",&b);
+    for(i=0;i<5;i++)
+    scanf("%d",&bez[i]);
+    for(i=0;i<5;i++)
+    if(bez[i]==b){k++;}
+    printf("%d", k);
+    return 0;
+}
